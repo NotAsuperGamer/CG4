@@ -40,6 +40,8 @@ add_executable(DX12Test main.cpp
         CubeMesh.h
         CubeMesh.cpp
         MeshData.h
+        MeshLoader.h
+        MeshLoader.cpp
         framework/Constants.h)
 
 target_compile_definitions(DX12Test PRIVATE GAMEFRAMEWORK_STATIC)
